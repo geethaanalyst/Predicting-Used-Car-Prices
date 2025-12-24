@@ -10,7 +10,8 @@ By utilizing this model, the company aims to improve pricing recommendations, op
 <img width="772" height="362" alt="image" src="https://github.com/user-attachments/assets/cc8d996c-d5f0-4c28-a0d5-0794a519c325" />
 
 ## **Dataset Overview** 
-<img width="953" height="437" alt="image" src="https://github.com/user-attachments/assets/474b5509-222b-4254-a398-b151d0d076df" />
+<img width="867" height="537" alt="image" src="https://github.com/user-attachments/assets/8d69c201-c27a-4c9d-9bff-0966e7c14c98" />
+
 
 ## **Data Preprocessing**
 * **Checked for missing values:  No missing data was found.**
