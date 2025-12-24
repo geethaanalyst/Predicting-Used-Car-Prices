@@ -58,21 +58,13 @@ All models were evaluated using metrics MAE, MSE, RMSE and R² Score to ensure r
 <img width="832" height="202" alt="image" src="https://github.com/user-attachments/assets/4967fcd7-7c6f-4567-9945-dc71097499ec" />
 
 ## **Recommendations**
-To improve on-time delivery rates and customer satisfaction, the company should:
-
-* **Optimize shipment mode selection based on delivery reliability.**
-* **Proactively address shipments issues with multiple customer care calls.**
-* **Use customer ratings to identify and fix recurring delivery issues.**
-* **Prioritize high-importance and high-discount shipments for timely handling.**
-* **Regularly analyse warehouse and route performance for targeted improvements.**
-* **Implement predictive analytics to identify and intervene in at-risk shipments.**
+* **Periodically retrain on the latest market data to account for economic shifts and changing consumer preferences.**
+* **Use feature importance reports to educate staff and end-users on what drives price, enhancing transparency and trust.**
+* **Leverage city-based insights to target pricing strategies for metro markets vs. other regions.**
 
 ## **Conclusion**
-* **The project's objective was to forecast on-time delivery for an e-commerce company's products and to explore factors influencing delivery times and customer behaviour.**
-* **The exploratory analysis highlighted that product weight and cost are crucial to delivery success, with products in the 4000-6000 gms range and priced approximately $300 being more likely to arrive on time. A significant volume of products was dispatched from warehouse F using shipping, suggesting its proximity to a seaport.**
-* **Customer behaviour also sheds light on delivery outcomes. An increase in customer care calls often correlates with delivery delays.**
-* **In contrast, customers with a history of multiple purchases tend to experience more punctual deliveries, which might explain their repeat business.**
-* **Products with discounts ranging from 0-10% tend to arrive on time. Meanwhile, products with discounts above 10% are more likely to not arrive on time.**
-
+* **The model will help identify factors influencing used car prices, allowing for more targeted pricing strategies.**
+* **Our data-driven machine learning approach, primarily linear regression based delivers significant upgrades in pricing precision, market intelligence, and user experience for used car platforms.**
+* **These models, well-integrated with smart visualizations and provide a pathway for sustained business differentiation and consumer trust in the competitive automotive marketplace.**
 
 
