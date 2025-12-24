@@ -1,12 +1,11 @@
 # Predicting-Used-Car-Prices
-Develope robust machine learning models to accurately predict product delivery timeliness. By utilizing these models, the company aims to improve customer satisfaction, optimize logistics, and gain insights into factors affecting delivery performance.
+Develop a robust machine learning model to accurately predict used car prices in the market. By utilizing this model, the company aims to improve pricing recommendations, optimize inventory management, and help both buyers and sellers make informed decisions.
 
 ## **Introduction** 
-In today’s highly competitive e-commerce market, customer retention is essential for long-term business success and sustainable growth. 
-This project aims to enhance the understanding of product delivery patterns and customer behaviour for an international e-commerce company specializing in electronic products. 
-The goal is to develop robust machine learning models to accurately predict product delivery timeliness, enabling the company to improve customer satisfaction, optimize logistics, and gain insights into factors affecting delivery performance.
-The dataset used includes customer care calls, customer rating, prior purchases, Mode of Shipments, Cost of the Product, Product Importance, Weight etc. 
-
+Empower a leading used car marketplace to optimize pricing, inventory, and decision-making through data analysis and machine learning on market data across major metro cities.
+Develop a robust machine learning model to accurately predict used car prices in the market. 
+By utilizing this model, the company aims to improve pricing recommendations, optimize inventory management, and help both buyers and sellers make informed decisions.
+ 
 ## **Deployment Flow** 
 <img width="772" height="362" alt="image" src="https://github.com/user-attachments/assets/cc8d996c-d5f0-4c28-a0d5-0794a519c325" />
 
