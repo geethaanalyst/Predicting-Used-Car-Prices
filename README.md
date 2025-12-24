@@ -7,7 +7,7 @@ Develop a robust machine learning model to accurately predict used car prices in
 By utilizing this model, the company aims to improve pricing recommendations, optimize inventory management, and help both buyers and sellers make informed decisions.
  
 ## **Deployment Flow** 
-<img width="772" height="362" alt="image" src="https://github.com/user-attachments/assets/cc8d996c-d5f0-4c28-a0d5-0794a519c325" />
+<img width="962" height="412" alt="image" src="https://github.com/user-attachments/assets/d52c446c-640f-4a8d-84ed-403f8a6a9b91" />
 
 ## **Dataset Overview** 
 <img width="867" height="537" alt="image" src="https://github.com/user-attachments/assets/8d69c201-c27a-4c9d-9bff-0966e7c14c98" />
@@ -22,8 +22,8 @@ By utilizing this model, the company aims to improve pricing recommendations, op
 
 ## **Exploratory Data Analysis**
 ### **Top 5 Companies by Listings**
-Top 5 Companies by Listings
-<img width="534" height="88" alt="image" src="https://github.com/user-attachments/assets/79f0b83a-3e7b-4483-b63c-2d91b68a2642" />
+<img width="600" height="235" alt="image" src="https://github.com/user-attachments/assets/ba13d2e2-a4ac-44f7-93ab-75621ab92612" />
+
 ### **Distribution of body style**
 * **Hatchback**
 * **Sedan**
@@ -36,33 +36,26 @@ Top 5 Companies by Listings
 
 
 ## **Key Findings**
-### **Gender Distribution**
-* **The dataset has the equal number of both males and female customers, with percentage of 49.6% and 50.4% respectively.**
-### **Product Insights**
-* **Heavier products (4000-6000 gms) are more likely delivered on time.**
-* **Products costing approximately $300 are mostly delivered on time compared to low-cost items.**
-### **Customer Behaviour**
-* **High customer care calls often indicate delayed delivery.**
-* **Repeat customers have better delivery outcomes.**
-### **Discount Impact**
-* **Minimal discounts (0-10%) correlate with timely deliveries.** 
-* **Higher discounts (>10%) lead to more late deliveries.**
+### **Most Influential Factors**
+* **Model and brand**
+* **Car age and kilometer driven**
+* **Vehicle quality score**
+* **City Location (Metro/Other Region)**
+* **Number of Previous Owners: Fewer owners are generally associated with higher prices.**
+### **Model Performance:**
+* **MAE ~0.87 lakh INR: Typical prediction error per car** 
+* **R² of 0.85: Strong prediction accuracy**
 
 ## **Machine Learning Models**
-All models were evaluated using accuracy, precision, recall, and F1-score to ensure robust performance comparison.
+All models were evaluated using metrics MAE, MSE, RMSE and R² Score to ensure robust performance comparison.
 
-### **Logistic Regression**
-* **Interpreted linear relationships between features (Accuracy - 64%).**
-### **Decision Tree Classifier**
-* **Selected optimal parameters via grid search (Accuracy - 67%).**
-* **Grid Search in Decision Tree: Accuracy - 68%.**
-* **Max depth:4, minimum samples leaf: 1, minimum samples split: 2.**
-### **Random Forest Classifier**
-* **Explored ensemble learning for improved accuracy (Accuracy - 67%).**
-* **Max depth:4, minimum samples leaf: 2, minimum samples split: 2.**
-* **Grid search in random forest: Accuracy - 68%.**
-### **K-Nearest Neighbors**
-* **Examined proximity-based decision-making (Accuracy - 65%).**
+### **Models Used**
+* **Linear Regression**
+* **Decision Tree Regressor**
+* **Random Forest Regressor**
+* **XGBoost Regressor**
+### **Model Performance**
+<img width="832" height="202" alt="image" src="https://github.com/user-attachments/assets/4967fcd7-7c6f-4567-9945-dc71097499ec" />
 
 ## **Recommendations**
 To improve on-time delivery rates and customer satisfaction, the company should:
