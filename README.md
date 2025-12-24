@@ -15,18 +15,25 @@ By utilizing this model, the company aims to improve pricing recommendations, op
 
 ## **Data Preprocessing**
 * **Checked for missing values:  No missing data was found.**
-* **Detecting and removing Outlier (Weight in gms).**
-* **Converted categorical features to numerical using encoding (Label encoding for Gender, Warehouse Block, Product Importance, Mode of shipment).**
-* **Normalized Numerical features (Cost of the Product, Discount Offered, Weight in gms, Customer care call, Customer Ratings).**
-* **Split data into training (75%) and testing (25%) sets for model building.** 
+* **Detecting and removing Outlier (Price and Kilometer).**
+* **Cleaned and imputed missing categorical and numerical features.**
+* **Converted categorical features to numerical using encoding (one hot encoding).**
+* **Split data into training (80%) and testing (20%) sets for model building.** 
 
 ## **Exploratory Data Analysis**
-<img width="672" height="544" alt="image" src="https://github.com/user-attachments/assets/ff740b1a-912d-479c-829f-4bd6f6898f21" />
-<img width="799" height="438" alt="image" src="https://github.com/user-attachments/assets/13edca9a-f05a-468f-af4f-ee134dda574f" />
-<img width="720" height="398" alt="image" src="https://github.com/user-attachments/assets/612b6a39-3925-4ae5-a048-9377ea9a213d" />
+### **Top 5 Companies by Listings**
+Top 5 Companies by Listings
+<img width="534" height="88" alt="image" src="https://github.com/user-attachments/assets/79f0b83a-3e7b-4483-b63c-2d91b68a2642" />
+### **Distribution of body style**
+* **Hatchback**
+* **Sedan**
+* **SUV**
+* **MPV**
+* **MUV/Van**
 
 ## **Visualization on Power BI**
-<img width="1369" height="774" alt="image" src="https://github.com/user-attachments/assets/cc6daa7c-a23d-4474-a3fd-a938d2e2b9a5" />
+<img width="1415" height="783" alt="image" src="https://github.com/user-attachments/assets/51af9d65-bf5d-47ee-8141-1bc8e9219bb0" />
+
 
 ## **Key Findings**
 ### **Gender Distribution**
